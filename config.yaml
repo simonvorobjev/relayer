@@ -26,7 +26,7 @@ chains:
         type: cosmos
         value:
             key: wallet
-            chain-id: STRIDE-TESTNET-2
+            chain-id: STRIDE-TESTNET-4
             rpc-addr: http://127.0.0.1:26657
             account-prefix: stride
             keyring-backend: test
@@ -47,7 +47,7 @@ paths:
             client-id: 07-tendermint-0
             connection-id: connection-0
         dst:
-            chain-id: STRIDE-TESTNET-2
+            chain-id: STRIDE-TESTNET-4
             client-id: 07-tendermint-0
             connection-id: connection-0
         src-channel-filter:
